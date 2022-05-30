@@ -1,0 +1,187 @@
+main {
+    width: 100%;
+    min-height: 80vh;
+}
+
+h1 {
+    padding-top: 3%;
+    text-align: center;
+}
+
+p {
+    padding: 1% 0 1% 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.gemiddeldeRating-home {
+    font-size: 1.6rem;
+}
+
+.MessiRonaldo {
+    width: 20rem;
+    max-width: 100%;
+    padding: 2.5% 0 0.5% 0;
+    margin-left: auto;
+    margin-right: auto;
+    display:block;
+}
+
+.front-text {
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    height: 6.25rem;
+    background-color: #555555;
+}
+
+.header__links {
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    padding: 0rem 1rem;
+    font-size: 1.2rem;
+}
+
+li a {
+    transition: all 0.3s ease 0s;
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color:rgb(222, 184, 135);
+}
+
+a:hover {
+    color: #000000;;
+}
+
+nav {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+input[type=text], input[type=number], select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+select:required:invalid {
+    color: #666;
+}
+option[value=""][disabled] {
+    display: none;
+}
+option {
+    color: #000;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #555555;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 1%;
+}
+
+input[type=submit]:hover {
+    background-color:rgb(222, 184, 135);
+}
+
+.form-container {
+    border-radius: 5px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 7%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+    align-content: center;
+}
+
+table{
+    margin-top: 2%;
+    margin-left: 25%;
+    padding: 1%;
+    table-layout: auto;
+    width: 50%;
+}
+table th{
+    text-decoration: underline;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(222, 184, 135);
+    color: white;
+    border-radius: 6px;
+}
+table tr{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+tr:hover{
+    background-color: #ddd;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.gemiddeldeRating-overzicht {
+    font-size: 1.5rem;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    padding-top: 5%;
+    width: 50%
+}
+
+footer{
+    width: 100%;
+    background-color: #555555;
+    color: rgb(222, 184, 135);
+    text-align: center;
+}
+p .copywrite {
+    margin: 0.3% 0 0.2% 0;
+    text-align: center;
+    font-style: italic;
+}
+
+p .cookies {
+    padding: 0.2% 0 0.3% 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.bevestiging-links {
+    text-align: center;
+}
+
+.logboek-article {
+    text-align: center;
+}
+
